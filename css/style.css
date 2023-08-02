@@ -1,0 +1,156 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+:root {
+  --iriscolor: #4d5ae5;
+  --navybluecolor: #2e2f42;
+}
+/* header */
+.nava {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iriscolor);
+  text-decoration: none;
+}
+.stu-dio {
+  color: var(--navybluecolor);
+}
+.list {
+  list-style: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.link {
+  text-decoration: none;
+}
+.spys {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navybluecolor);
+}
+.spys:hover {
+  color: #404bbf;
+}
+.spys:focus {
+  color: #404bbf;
+}
+.add-now {
+  color: #434455;
+  font-style: normal;
+}
+.add-now:hover {
+  color: #404bbf;
+}
+.add-now:focus {
+  color: #404bbf;
+}
+/* main */
+/* 1 section 1 */
+.sectionone {
+  background-color: #2e2f42;
+}
+.zagol-one {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.first-knopka {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.first-knopka:hover {
+  background-color: #404bbf;
+}
+.first-knopka:focus {
+  background-color: #404bbf;
+}
+/* 1 section 2 */
+.punktone {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navybluecolor);
+}
+.paragraphpunktone {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* 1 section 3 */
+.sekond {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--navybluecolor);
+}
+/* 1 section 4 */
+.sectionfour {
+  background-color: #f4f4fd;
+}
+.humenone {
+  background-color: #ffffff;
+}
+/* 2  */
+.knopka {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iriscolor);
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+.knopka:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.knopka:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navybluecolor);
+}
+.text-li {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* footer */
+.footer {
+  background-color: #2e2f42;
+}
+.stu-dio-foot {
+  color: #f4f4fd;
+}
+.parafoot {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
