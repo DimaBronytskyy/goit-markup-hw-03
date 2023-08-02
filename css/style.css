@@ -53,6 +53,9 @@ body {
   color: #404bbf;
 }
 /* main */
+img {
+  display: block;
+}
 /* 1 section 1 */
 .sectionone {
   background-color: #2e2f42;
