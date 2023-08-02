@@ -153,6 +153,9 @@ img {
   color: var(--navybluecolor);
   margin-bottom: 72px;
 }
+.ulliinsethree {
+  width: calc((100% - 48px) / 3);
+}
 /* 1 section 4 */
 .sectionfour {
   background-color: #f4f4fd;
