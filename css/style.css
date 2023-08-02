@@ -86,6 +86,9 @@ img {
   background-color: #2e2f42;
   padding: 188px 0;
 }
+.selione {
+  width: calc((100% - 72px) / 4);
+}
 .zagol-one {
   font-size: 56px;
   line-height: 1.07;
@@ -127,6 +130,10 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navybluecolor);
+
+}
+.thrirdh {
+  margin-bottom: 8px;
 }
 .paragraphpunktone {
   font-size: 16px;
