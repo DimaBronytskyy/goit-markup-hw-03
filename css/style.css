@@ -137,8 +137,7 @@ img {
   color: var(--navybluecolor);
   margin-bottom: 8px;
 
-  display: flex;
-  gap: 24px;
+  
 }
 .selione {
   width: calc((100% - 72px) / 4);
