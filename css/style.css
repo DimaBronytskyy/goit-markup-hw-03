@@ -127,7 +127,7 @@ img {
 }
 .se-li-two {
   display: flex;
-  gap: 24px; 
+  gap: 24px;
 }
 .punktone {
   font-weight: 500;
@@ -138,7 +138,7 @@ img {
   margin-bottom: 8px;
 
   display: flex;
-  gap: 24px; 
+  gap: 24px;
 }
 .selione {
   width: calc((100% - 72px) / 4);
@@ -151,7 +151,7 @@ img {
 }
 /* 1 section 3 */
 .section-three {
-  padding-bottom: 120px; 
+  padding-bottom: 120px;
 }
 .sekond {
   font-size: 36px;
@@ -166,11 +166,32 @@ img {
   width: calc((100% - 48px) / 3);
 }
 /* 1 section 4 */
-.sectionfour {
+.section-four {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .humenone {
   background-color: #ffffff;
+  flex-basis: calc((100% - 3 * 24px) / 4)
+  border-radius: 0px 0px 4px 4px;
+}
+.hsectionfour {
+  margin-bottom: 72px;
+}
+.ulsefour {
+  display: flex;
+  gap: 24px;
+}
+.cla-div-ce {
+  padding: 32px 0;
+}
+.four-h {
+  text-align: center;
+  margin-bottom: 8px; 
+}
+.parag-four {
+  text-align: center; 
+  margin-bottom: 8px;
 }
 /* 2  */
 .knopka {
