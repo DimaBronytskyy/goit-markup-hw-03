@@ -82,7 +82,7 @@ img {
   display: block;
 }
 /* 1 section 1 */
-.sectionone {
+.section-one {
   background-color: #2e2f42;
   padding: 188px 0;
 }
@@ -130,7 +130,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navybluecolor);
-
 }
 .thrirdh {
   margin-bottom: 8px;
@@ -142,6 +141,9 @@ img {
   color: #434455;
 }
 /* 1 section 3 */
+.section-three {
+  padding-bottom: 120px; 
+}
 .sekond {
   font-size: 36px;
   line-height: 1.11;
@@ -149,6 +151,7 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: var(--navybluecolor);
+  margin-bottom: 72px;
 }
 /* 1 section 4 */
 .sectionfour {
