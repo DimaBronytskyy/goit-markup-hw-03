@@ -46,9 +46,8 @@ body {
   list-style: none;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  display: flex;
-  gap: 24px;
 }
+
 .link {
   text-decoration: none;
 }
