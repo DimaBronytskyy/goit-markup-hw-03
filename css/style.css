@@ -13,12 +13,15 @@ body {
 }
 .div-header {
   display: flex;
+  justify-content: space-around;
 }
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .nav-base {
   display: flex;
@@ -171,7 +174,7 @@ img {
 }
 .humenone {
   background-color: #ffffff;
-  flex-basis: calc((100% - 3 * 24px) / 4)
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .hsectionfour {
@@ -229,7 +232,7 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.footera {
+.footera.apos {
   display: inline-block;
   margin-bottom: 16px;
 }
