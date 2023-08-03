@@ -90,9 +90,6 @@ img {
   background-color: #2e2f42;
   padding: 188px 0;
 }
-.selione {
-  width: calc((100% - 72px) / 4);
-}
 .zagol-one {
   font-size: 56px;
   line-height: 1.07;
@@ -139,10 +136,8 @@ img {
   letter-spacing: 0.02em;
   color: var(--navybluecolor);
   margin-bottom: 8px;
-
-  
 }
-.selione {
+.selione.lishka {
   width: calc((100% - 72px) / 4);
 }
 .paragraphpunktone {
@@ -151,6 +146,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 /* 1 section 3 */
 .section-three {
   padding-bottom: 120px;
