@@ -160,7 +160,7 @@ img {
   color: var(--navybluecolor);
   margin-bottom: 72px;
 }
-.ulliinsethree {
+.ulliinsethree.classss {
   width: calc((100% - 48px) / 3);
 }
 /* 1 section 4 */
