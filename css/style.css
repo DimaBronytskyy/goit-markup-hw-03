@@ -137,7 +137,7 @@ img {
   color: var(--navybluecolor);
   margin-bottom: 8px;
 }
-.selione.lishka {
+.selione {
   flex-basis: calc((100% - 3 * 24px) / 4)
 }
 .paragraphpunktone {
