@@ -11,7 +11,7 @@ body {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.div-header  {
+.div-header {
   display: flex;
   justify-content: space-around;
 }
@@ -19,9 +19,6 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 .nav-base {
   display: flex;
@@ -81,6 +78,24 @@ body {
 .add-now:focus {
   color: #404bbf;
 }
+/* footer */
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+.footera.apos {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.stu-dio-foot {
+  color: #f4f4fd;
+}
+.parafoot {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  max-width: 264px;
+}
 /* main */
 img {
   display: block;
@@ -138,7 +153,7 @@ img {
   margin-bottom: 8px;
 }
 .selione {
-  flex-basis: calc((100% - 3 * 24px) / 4)
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .paragraphpunktone {
   font-size: 16px;
@@ -185,12 +200,13 @@ img {
 }
 .four-h {
   text-align: center;
-  margin-bottom: 8px; 
-}
-.parag-four {
-  text-align: center; 
   margin-bottom: 8px;
 }
+.parag-four {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
 /* 2  */
 .knopka {
   font-family: "Roboto", sans-serif;
@@ -223,23 +239,33 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* footer */
-.footer {
-  background-color: #2e2f42;
-  padding: 100px 0;
+.po-se-one {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
-.footera.apos {
-  display: inline-block;
-  margin-bottom: 16px;
+.po-ul-one {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
-.stu-dio-foot {
-  color: #f4f4fd;
+.po-li-bu {
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
-.parafoot {
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
-  max-width: 264px;
+.po-li-bu:hover {
+  border: 1px solid transparent;
+}
+.po-li-bu:focus {
+  border: 1px solid transparent;
+}
+.po-ul-two {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  
 }
 /* паттерн */
 .visually-hidden {
