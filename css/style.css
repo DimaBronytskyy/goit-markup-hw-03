@@ -143,6 +143,8 @@ img {
 .se-li-two {
   display: flex;
   gap: 24px;
+  padding: 0;
+  margin: 0;
 }
 .punktone {
   font-weight: 500;
@@ -266,6 +268,8 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding: 0;
+  margin: 0;
 }
 .po-ul-li {
   width: calc((100% - 48px) / 3);
